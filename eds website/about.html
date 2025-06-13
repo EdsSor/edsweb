@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>eds Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay muted loop id="back-video">
+    <source src="bg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <header class="animate-fade-in-down" style="animation-delay: 0.2s;">
+    <div class="logo">
+    <img src="logo.png" alt="Logo" />
+  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contacts.html">Contacts</a></li> 
+      </ul>
+    </nav>
+  </header>
+<div class="container">
+  <!-- Sidebar / Left panel -->
+  <aside class="left-panel">
+    <h2>ABOUT ME</h2>
+    <ul>
+      <li><a href="#introduction">INTRODUCTION</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+    </ul>
+  </aside>
+   
+  <div class="main-panel">
+    <section class="profile-section" id="introduction">
+      <img style="float:left" src="eds.jpeg" alt="edspic">
+      <div class="info">
+        <h1>ELDY SORIANO II</h1>
+        <p>
+          Hello! I am Eldy Soriano II, an IT student and aspiring Software Engineer. I am passionate about technology, web development and continuous learning.
+          <br><i>Coding is not just a skill for me—it's a way of life!</i>
+        </p>
+      </div>
+    </section>
+    <section class="details" id="details">
+      <h3>Personal Details</h3>
+      <p><strong>Age:</strong> 20 years old</p>
+      <p><strong>Birthdate:</strong> 12/11/04</p>
+      <p><strong>Email:</strong> eldysoriano111@gmail.com</p>
+      <p><strong>Phone:</strong> +639078894910</p>
+      <p><strong>Address:</strong> Philippines, Pangasinan Urdaneta City</p>
+    </section>
+    <!-- SKILLS SECTION: appears as you scroll down -->
+    <section class="skills-section" id="skills">
+  <h3>Skills</h3>
+ <div class="skills-row">
+  <div class="skills-box">
+    <h4>Website Development</h4>
+    <p>
+      I specialize in building modern, responsive, and user-friendly websites. My focus is on creating seamless user experiences and efficient, maintainable code.
+    </p>
+    <h4>Tools I Use</h4>
+    <div class="skills-logos">
+      <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" title="html">
+        <img src="html.png" alt="HTML5" title="HTML5" />
+      </a>
+      <a href="https://en.wikipedia.org/wiki/CSS" target="_blank" title="css">
+        <img src="css-3.png" alt="CSS3" title="CSS3" />
+      </a>
+      <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="js">
+        <img src="js.svg" alt="JavaScript" title="JavaScript" />
+      </a>
+    </div>
+  </div>
+  <div class="skills-box">
+    <h4>UI/UX & Graphic Design</h4>
+    <p>
+      I design intuitive user interfaces and engaging graphics for both web and mobile platforms. My work focuses on user-centered design principles and creative visual storytelling.
+    </p>
+    <h4>Tools I Use</h4>
+    <div class="skills-logos">
+      <a href="https://www.figma.com/" target="_blank" title="figma">
+        <img src="figma.png" alt="Figma" title="Figma" />
+      </a>
+      <a href="https://www.adobe.com/in/products/photoshop.html" target="_blank" title="photoshop">
+        <img src="photoshop.png" alt="Adobe Photoshop" title="Adobe Photoshop" />
+      </a>
+      <a href="https://www.canva.com/" target="_blank" title="canva">
+        <img src="canva.svg" alt="Canva" title="Canva" />
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+<section class="education-section" id="education">
+  <h3>Education</h3>
+  <div class="education-box">
+    <img src="ucnhs.png" alt="UCNHS Logo" class="school-logo" />
+    <div class="education-text">
+      <h1>Urdaneta City National High School</h1>
+      <p>Junior High School</p>
+      <p>Senior High School – Accountancy, Business, and Management (ABM)</p>
+      <p>
+        I graduated from Urdaneta City National High School, where I completed both my Junior High School and Senior High School education. In Senior High, I specialized in the Accountancy, Business, and Management (ABM) strand. This background has equipped me with essential knowledge in business, finance, and entrepreneurship—skills that continue to support my passion for professional growth and development.
+      </p>
+    </div>
+  </div>
+</section>
+    <!-- You can add more sections  here, like Education, etc. -->
+  </div>
+  
+  
+  <div class="right-panel">
+    <h3>Interests</h3>
+    <div class="interest-item">
+      <a href="https://open.spotify.com/" target="_blank" title="spotify">
+        <img src="spotify.svg" alt="spotify" class="social-icon" />
+      </a>
+      <a href="https://www.netflix.com/ph-en/" target="_blank" title="netflix">
+        <img src="netflix.svg" alt="netflix" class="social-icon" />
+      </a>
+      <a href="https://www.mobilelegends.com/" target="_blank" title="mlbb">
+        <img src="ml.svg" alt="mlbb" class="social-icon" />
+      </a>
+      <a href="https://code.visualstudio.com/" target="_blank" title="vscode">
+        <img src="code.svg" alt="vscode" class="social-icon" />
+      </a>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
